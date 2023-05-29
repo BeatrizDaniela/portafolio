@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio Beatriz</title>
+	<link rel="stylesheet" href="css/estilos.css"/>	
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/469f346999.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <header>
+
+             <h1 id="logo">Beatriz Araya</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="#musica">Música </a></li>
+                        <li><a href="#deporte">Deporte </a></li>
+                        <li><a href="#diseño">Diseño </a></li>
+                        <li><a href="#nosotros">Nosotros </a></li>
+                        <li><a href="#contacto">Contacto </a></li>
+                    </ul>
+                </nav>
+
+            
+            <div id="contenedor_txt">
+                 <p class="txt">BEATRIZ ARAYA</p>
+                    <p class="txt"><strong>Diseñadora Gráfica</strong> egresada de la<br>
+                        Universidad Tecnológica Metropolitana, <em>"Chile"</em>.<br>
+                        Ejerciendo desde el año 2011 como tal.<br><br>
+
+                        Con capacitaciones en Diseño y Desarrollo<br>
+                        Web en la Fundación Da Vinci, <em>"Argentina"</em>.<br><br>
+
+                        Conocimiento y experiencia en Branding,<br>
+                        Diseño publicitario e Identidad corporativa.
+                    </p>
+            </div>        
+        </header>
+
+        <main>
+            <section>
+                <div>
+                    <h2 id="musica">Música</h2>
+                    <iframe class="spoti" src="https://open.spotify.com/embed/artist/3RNrq3jvMZxD9ZyoOZbQOD?theme=0" width="560" height="315"
+                         allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                    </iframe>
+
+                    <iframe class="spoti" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX2hfIBBY7Put" width="560" height="315" 
+                        allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                    <iframe class="spoti" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXNFSTtym834" width="560" height="315" 
+                        allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2 id="deporte">Deporte</h2>
+                    <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/3hCrEtAEVMQ" title="YouTube video player"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/GxYbsRYdQuk" 
+                        ></iframe>
+                </div>
+            </section>
+            <section>
+                    <h2 id="disenio">Diseño</h2>
+                <div class="imgdis">
+                    <a href="">
+                        <img alt="trabajo 1" src="img/trabajo_1.jpg">
+                    </a>
+                    <a href="">
+                        <img alt="trabajo 2" src="img/trabajo_2.jpg">
+                    </a>
+                    <a href="">
+                        <img alt="trabajo 3" src="img/trabajo_3.jpg">
+                    </a>
+                    <a href="">
+                        <img alt="trabajo 4" src="img/trabajo_4.jpg">
+                    </a>
+                    <a href="">
+                        <img alt="trabajo 5" src="img/trabajo_5.jpg">
+                    </a>
+                    <a href="">
+                        <img alt="trabajo 6" src="img/trabajo_6.jpg">
+                    </a>
+                </div>
+            </section>
+                    <h2 id="nosotros">Nosotros</h2>
+            <section id="nosotros-menu" class="nosotros">
+                <div class="equipo">
+                    <a href="">
+                        <img class="constanza" alt="pagina de constanza" src="img/constanza.jpg" width="200">
+                        <h3>Constanza</h3>
+                    </a>
+                    <a href="">
+                        <img class="lucas" alt="pagina de lucas" src="img/lucas.jpg" width="200">
+                        <h3>Lucas</h3>
+                    </a>
+                    <a href="">
+                        <img class="eduardo" alt="pagina de eduardo" src="img/eduardo.jpg" width="200">
+                        <h3>Eduardo</h3>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+                    <h2 id="contacto">Contacto</h2>
+            <div class='footer'>
+                <form  id="formulario" action="datos.php" method="GET" name="nombre">
+                    <label for="nombre"> Ingrese su nombre: </label>
+                    <input id="nombre" type="text" placeholder="Nombre y Apellido">
+                    <br> <br>
+                    <label for="contraseña"> Ingrese contraseña: </label>
+                    <input id="contraseña" type="password" placeholder="Contraseña">
+                    <br> <br>
+                    <label for="correo"> Ingrese su e-mail: </label>
+                    <input id="correo" type="email" placeholder="Correo">
+                    <br> <br>
+                    <label> Ingrese genero: </label>
+                    <br><br>
+                    <input type="radio" name="empleoactual" value="tiempocompleto"> Hombre
+                    <br>
+                    <input type="radio" name="empleoactual" value="mediodia"> Mujer
+                    <br><br><br>
+                    <input type="submit" value="Enviar datos">          
+                </form>
+                <div class="rrss">
+
+                    <div style="display: flex">
+                        <a href="mailto:bea.araya@duocuc.cl">
+                        <i class="fas fa-envelope-square" ></i></a>
+                        <div style="margin-left: 10px"></div>
+
+                        <a href="tel:+56972555923">
+                        <i class="fas fa-phone-square-alt" ></i></a>
+                        <div style="margin-left: 10px"></div>
+                    </div>
+
+                    <div style="display: flex">
+                        <a target="_blank" href="https://bit.ly/3oH3yKL">
+                         <i class="fab fa-instagram-square"></i>            
+                        </a>
+
+                        <a target="_blank" href= "https://bit.ly/2WAdaLr">
+                         <i class="fab fa-facebook-square"></i>           
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+            <div class="copyright">
+                <p>Developed and Designed by Los H1. ©2021. All Rights Reserved.</p>
+            </div>
+</body>
+</html>
